@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.layout {
+  .logo {
+    float: left;
+    background-image: url("/logo-blanco.svg");
+    width: 70px;
+    height: 17px;
+    margin-top: 19px;
+    margin-right: 11px;
+  }
+
+  .btnAddSubdivicion {
+    border: none;
+    padding: 3px 0;
+    line-height: 0;
+    margin-left: 20px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .btnVerSubdivicion {
+    border: none;
+    padding: 3px 0;
+    line-height: 0;
+    background: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .top-sel-search {
+    display: flex;
+    justify-content: end;
+
+    .ant-select {
+      margin-right: 10px;
+    }
+  }
+
+  .ant-layout-header {
+    height: 54px;
+    background: #2E52F8;
+    background: linear-gradient(90deg, rgba(46, 82, 248, 1) 0%, rgba(46, 82, 248, 1) 48%, rgba(86, 167, 242, 1) 100%);
+
+    .ant-menu-dark {
+      line-height: 54px;
+      height: 54px;
+      background: transparent;
+
+      .ant-menu-item {
+        color: #FFFFFF;
+        background-color: transparent;
+        border-radius: 4px;
+        line-height: initial;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        padding: 10px;
+        margin-right: 10px;
+
+        &:hover, &.ant-menu-item-selected {
+          color: #FFFFFF;
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+      }
+    }
+  }
+
+  .site-layout-header {
+    h1 {
+      font-family: 'Segoe UI', serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+}
+
+.formulario-agregarSubdiv {
+  margin-top: 20px;
+}
